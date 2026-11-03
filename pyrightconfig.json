@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+  "deprecateTypingAliases": true,
+  "enableTypeIgnoreComments": false,
+  "reportImplicitOverride": true,
+  "reportUnnecessaryCast": true,
+  "reportUnnecessaryComparison": true,
+  "reportUnnecessaryContains": true,
+  "reportUnnecessaryIsInstance": true,
+  "reportUnreachable": true,
+  "reportUnusedCallResult": false,
+  "reportUnusedImport": "error",
+  "reportUnusedParameter": true,
+  "strictDictionaryInference": true,
+  "strictListInference": true,
+  "typeCheckingMode": "strict"
+}

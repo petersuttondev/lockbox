@@ -1,0 +1,16 @@
+line-length = 80
+target-version = "py314"
+
+[format]
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+quote-style = "double"
+
+[lint]
+extend-select = ["ARG", "ASYNC", "RUF022", "TID251", "TID252"]
+
+[lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[lint.isort]
+combine-as-imports = true
